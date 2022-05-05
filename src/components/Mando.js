@@ -40,3 +40,4 @@ const Mando = () => {
 }
 
 export default Mando
+
