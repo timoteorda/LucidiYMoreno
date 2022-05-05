@@ -1,0 +1,45 @@
+.contacto{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+    @include telefono{
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+.izquierdaContacto{
+    margin-top: 2rem;
+    width: 50%;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.tituloContacto{
+    color: rgb(0,95,164);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tituloFormulario{
+    color: rgb(0,95,164);
+    font-size: 2.2rem;
+    text-align: center;
+    @include telefono{
+        font-size: 1.8rem;
+    }
+}
+
+.pContacto{
+    font-size: 1.2rem;
+}
+
+.derechaContacto{
+    margin-top: 2rem;
+    width: 50%;
+    @include telefono{
+        width: 100%;
+    }
+}

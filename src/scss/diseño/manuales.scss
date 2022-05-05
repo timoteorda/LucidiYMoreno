@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+}
+
+.tituloManuales{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(0,95,164);
+    margin-bottom: 2rem;
+    @include telefono{
+        font-size: 2.2rem;
+    }
+}
+
+.containerManuales{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.manuales{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    @include telefono{
+        flex-direction: column;
+    }
+}
+
+.tituloProductoManual{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.tipoProductoManual{
+    width: 22%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    @include telefono{
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+.textoManual{
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+}
+
+.textoManual:hover{
+    color: gray;
+}

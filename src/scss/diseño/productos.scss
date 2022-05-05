@@ -1,0 +1,57 @@
+.contenedorProductos{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+}
+
+.tituloProducto{
+    color: rgb(0,95,164);
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tituloDentroDiv{
+    font-size: 1.8rem;
+    @include telefono{
+        margin-left: 0rem;
+    }
+}
+
+.divProductos{
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include telefono{
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+}
+
+.producto{
+    margin-top: 2rem;
+    width: 50%;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.parrafoProducto{
+    width: 85%;
+    font-size: 1.1rem;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.tituloListaProductos{
+    color: rgb(0,95,164);
+    font-size: 1.4rem;
+}
+
+.listaProducto{
+    font-size: 1rem;
+}

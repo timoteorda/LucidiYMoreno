@@ -1,0 +1,73 @@
+@import "../utilities/mediaquerys";
+
+.nuestrosProductosMain{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    @include telefono{
+        flex-direction: column;
+    }
+}
+
+.tituloMain{
+    margin: 3rem 0rem;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(0, 95, 164);
+    @include telefono{
+        font-size: 1.8rem;
+        margin-left: 0rem;
+    }
+}
+
+.contenedorMain{
+    transition: 1s;
+    width: 19rem;
+}
+
+.contenedorMain:hover{
+    transform: scale(1.05);
+}
+
+.flexProductos{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-bottom: 5rem;
+    @include telefono{
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+}
+
+.tituloFlexMain{
+    @include telefono{
+        font-size: 1.4rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+}	
+
+
+.tituloProductoMain{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 95, 164);
+    @include telefono{
+        font-size: 1.8rem;
+    }
+}
+
+.tituloProductoMain:hover{
+    color: black;
+}
+
+.textoProductoMain{
+    text-align: center;
+    font-size: 0.9rem;
+    @include telefono{
+        width: 85%;
+        margin-left: 3rem;
+    }
+}

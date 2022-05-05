@@ -1,0 +1,82 @@
+@import "../utilities/mediaquerys";
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    height: auto;
+    background-color: rgb(50,50,50);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    @include telefono{
+        flex-direction: column;
+        width: 97.5%;
+    }
+}
+
+.divFooterUno{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    @include telefono{
+        padding: 0rem;
+        margin-left: 0.5rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.divFooterDos{
+    width: 40%;
+    padding: 2rem;
+    @include telefono{
+        width: 90%;
+        padding: 0rem;
+        margin-left: 0.5rem;
+    }
+}
+
+.ulFooter{
+    margin-left: 0rem;
+}
+
+.tituloFooter{
+    color: white;
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.liFooter{
+    color: white;
+    font-size: 1rem;
+}
+
+.linkFooter{
+    text-decoration: none;
+    color: white;
+}
+
+.linkFooter:hover{
+    color: black;
+}
+
+.textoFooter{
+    color: white;
+    font-size: 1rem;
+}
+
+.madeBy{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    @include telefono{  
+        width: 100%;
+        margin-left: -3.5rem;
+    }
+}

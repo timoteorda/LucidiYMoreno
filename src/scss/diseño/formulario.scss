@@ -1,0 +1,26 @@
+.form{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+    margin-left: 5rem;
+    @include telefono{
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+.tituloForm{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.cuadradoMensaje{
+    width: 100%;
+    height: 8rem;
+}
+
+.botonEnviar{
+    width: 15rem;
+    height: 3rem;
+}

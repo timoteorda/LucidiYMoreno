@@ -1,0 +1,41 @@
+.contenedorServicios{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+    @include telefono{
+        flex-direction: column;
+    }
+}
+
+.izquierdaServicios{
+    width: 50%;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.tituloServicios{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(0,95,164);
+}
+
+.parrafoServicios{
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.derechaServicios{
+    width: 50%;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.listaMantenimiento{
+    font-size: 1.1rem;
+    list-style: circle;
+}

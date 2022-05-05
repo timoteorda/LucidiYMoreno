@@ -1,0 +1,11 @@
+
+@import "../utilities/mediaquerys";
+
+.banner{
+    width: 100%;
+    height: 22rem;
+    @include telefono{
+        width: 100%;
+        height: 10rem;
+    }
+}

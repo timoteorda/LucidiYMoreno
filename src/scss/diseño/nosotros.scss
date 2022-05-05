@@ -1,0 +1,69 @@
+.contenedorNosotros{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    @include telefono{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+}
+
+.izquierdaNosotros{
+    margin-top: 2rem;
+    width: 50%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    @include telefono{
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+.tituloNosotros{
+    color: rgb(0,95,164);
+    font-size: 2rem;
+    @include telefono{
+        font-size: 1.8rem;
+    }
+}
+
+.subtituloNosotros{
+    margin: 2rem 0rem;
+    font-size: 1.8rem;
+}
+
+.pNosotros{
+    font-size: 1.2rem;
+}
+
+.contenedorExperiencia{
+    width: 90%;
+}
+
+.tituloExperiencia{
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    @include telefono{
+        margin-left: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+.tituloGonnet{
+    font-size: 2rem;
+    margin-left: 40.5%;
+    margin-top: 1rem;
+    @include telefono{
+        margin-left: 6rem;
+    }
+}
+
+.derechaNosotros{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    @include telefono{
+        width: 100%;
+    }
+}

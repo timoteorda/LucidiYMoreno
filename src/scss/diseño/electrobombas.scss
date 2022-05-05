@@ -1,0 +1,49 @@
+.containerElectro{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    @include telefono{
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+}
+
+.divElectro{
+    width: 33%;
+    margin-top: 2rem;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.tituloElectrobomba{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.contactanosElectro{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.botonElectro{
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    background-color: rgb(0, 95, 164);
+    border-radius: 20px;
+    color: white;
+    margin-left: 39%;
+    margin-bottom: 5rem;
+    @include telefono{
+        margin-left: 2.5rem;
+    }
+}
+
+.botonElectro:hover{
+    background-color: rgb(0, 120, 200);
+    color: white;
+}

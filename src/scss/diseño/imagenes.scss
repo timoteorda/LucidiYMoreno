@@ -1,0 +1,51 @@
+.logo{
+    width: 23rem;
+    height: 5rem;
+    @include telefono{
+        width: 100%;
+    }
+}
+
+.imagenesMain{
+    width: 14.38rem;
+    height: 12.50rem;  
+    margin-left: 1.5rem;
+    border: none;
+    @include telefono{
+        margin-left: 4rem;
+    }
+}
+
+.iconoExperiencia{
+    margin-left: 42%;
+}
+
+.imagenNosotros{
+    width: 25rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 30%;
+    @include telefono{
+        margin-left: 1rem;
+        width: 90%;
+    }
+}
+
+.imagenProducto{
+    width: 21.88rem;
+    height: 18rem;
+    margin-left: 8%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    @include telefono{
+        margin-left: 1rem;
+        width: 80%;
+        height: 15rem;
+    }
+}
+
+.imagenElectrobombas{
+    width: 18rem;
+    height: 15rem;
+    margin-left: 3rem;
+}
