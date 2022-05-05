@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Electrobombas = () => {
   return (
     <div>
+        <h1 className='tituloProducto'>Electrobombas</h1>
         <div className='containerElectro'>
             <div className='divElectro'>
                 <h4 className='tituloElectrobomba'>Electrobomba presurizadora</h4>

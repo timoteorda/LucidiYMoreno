@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Control = () => {
   return (
     <div>
+        <h1 className='tituloProducto'>Control y protección</h1>
         <div className='containerElectro'>
             <div className='divElectro'>
                 <Link to="/interruptores"><h4 className='tituloElectrobomba'>Interruptores</h4></Link>
