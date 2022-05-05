@@ -16,14 +16,14 @@ const Banner = () => {
         <Carousel.Item interval={3000}>
           <img
             className="banner"
-            src="../img/bannerDos.jpg"
+            src="../img/bannerdos.jpg"
             alt="Image Two"
           />
         </Carousel.Item>
         <Carousel.Item interval={3000}>
           <img
             className="banner"
-            src="../img/bannerTres.jpg"
+            src="../img/bannertres.jpg"
             alt="Image Two"
           />
         </Carousel.Item>
