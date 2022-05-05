@@ -48,4 +48,7 @@
     width: 18rem;
     height: 15rem;
     margin-left: 3rem;
+    @include computadora{
+        margin-left: 6rem;
+    }
 }
