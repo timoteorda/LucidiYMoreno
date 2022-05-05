@@ -47,9 +47,9 @@
     @include telefono{
         margin-left: 1rem;
         font-size: 1.3rem;
-    @include computadora{
-        margin-left: 4rem;
     }
+    @include computadora{
+        margin-left: 6rem;
     }
 }
 
