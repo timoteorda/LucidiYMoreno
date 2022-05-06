@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
       </div>
       <div className='subFooter'>
-        <h3 className='madeBy'>Site made by: TimoteoRuiz</h3>
+        <h3 className='madeBy'>© Todos los derechos reservados. Lucidi Y Moreno 2022</h3>
       </div>
     </footer>
     </>

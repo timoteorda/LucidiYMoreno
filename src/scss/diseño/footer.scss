@@ -17,7 +17,7 @@ ul{
 }
 
 .divFooterUno{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     padding: 2rem;
@@ -32,7 +32,7 @@ ul{
 }
 
 .divFooterDos{
-    width: 40%;
+    width: 30%;
     padding: 2rem;
     @include telefono{
         width: 90%;
@@ -54,6 +54,7 @@ ul{
 .liFooter{
     color: white;
     font-size: 1rem;
+    margin-left: -2rem;
 }
 
 .linkFooter{
@@ -68,6 +69,10 @@ ul{
 .textoFooter{
     color: white;
     font-size: 1rem;
+    margin-left: -3rem;
+    @include telefono {
+        margin-left: 0rem;
+    }
 }
 
 .madeBy{
@@ -77,6 +82,7 @@ ul{
     margin-top: 1rem;
     @include telefono{  
         width: 100%;
-        margin-left: -3.5rem;
+        font-size: 0.9rem;
+        margin-left: -0.5rem;
     }
 }
