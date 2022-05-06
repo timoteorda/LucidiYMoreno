@@ -2,7 +2,9 @@
     width: 23rem;
     height: 5rem;
     @include telefono{
-        width: 100%;
+        width: 90%;
+        height: 4rem;
+        margin-left: 10%;
     }
 }
 
